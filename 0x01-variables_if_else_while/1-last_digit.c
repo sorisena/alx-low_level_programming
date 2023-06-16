@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - program that diplay positive,negative and zero
- * Return:0 usually (success)
+ * Return: usually (success)
  *
  */
 int main(void)
