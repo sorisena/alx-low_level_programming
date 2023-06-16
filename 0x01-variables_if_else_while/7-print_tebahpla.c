@@ -1,15 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/** * main - entry point
- *  * Return:0 (succes)
+/**
+ * main - entry point
+ * Return:0 (succes)
  *
  */
 int main(void)
 {
 char low;
-for (low = 'a'; low <= 'z'; low--)
+
+for (low = 'z'; low >= 'a'; low--)
 putchar(low);
-putchar('\n'); 
+putchar('\n');
+
 return (0);
 }
