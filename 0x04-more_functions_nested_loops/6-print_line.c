@@ -2,7 +2,7 @@
 
 /**
  *print_line - print 0 to 14 10 times
- @n: input paramater
+ *@n:input paramater
  * Return: nothing
  *
  */
