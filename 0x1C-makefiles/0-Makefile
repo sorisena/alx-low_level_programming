@@ -1,2 +1,2 @@
-all: main.c sena.c
-	gcc main.c sena.c -o sena
+all: main.c school.c
+	gcc main.c school.c -o school
