@@ -1,0 +1,2 @@
+all: main.c sena.c
+	gcc main.c sena.c -o sena

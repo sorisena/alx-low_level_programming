@@ -1,0 +1,6 @@
+CC = gcc
+SRC = main.c sena.c
+OBJ = $(SRC:.c=.o)
+NAME = sena
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
